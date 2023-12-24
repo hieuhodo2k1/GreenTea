@@ -13,14 +13,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Site Metas -->
-<title>Freshshop</title>
+<title>Green Tea</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="google-signin-client_id" content="1036870259189-5q0j11me86k3v4ni4eng6v02v2pe7jql.apps.googleusercontent.com">
 	<link rel="stylesheet" href="css/header.css">
 <!-- Site Icons -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="stylesheet"
 	href="fonts/themify-icons-font/themify-icons/themify-icons.css">

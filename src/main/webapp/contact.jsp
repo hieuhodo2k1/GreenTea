@@ -13,13 +13,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Site Metas -->
-<title>Freshshop</title>
+<title>Green Tea</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
 
 <!-- Site Icons -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="stylesheet"
 	href="fonts/themify-icons-font/themify-icons/themify-icons.css">
@@ -101,7 +101,7 @@
                                 </div> -->
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" placeholder="Email"  class="form-control" name="email" required  value="khaihieupc2@gmail.com">
+                                        <input type="text" placeholder="Email"  class="form-control" name="email" required  value="abc@gmail.com">
                                      
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@
                                 <p><i class="fas fa-phone-square"></i>SĐT: <a href="tel:0343385406">0343385406</a></p>
                             </li>
                             <li>
-                                <p><i class="fas fa-envelope"></i>Email: <a href="mailto: khaihieunlu@outlook.com">khaihieunlu@outlook.com</a></p>
+                                <p><i class="fas fa-envelope"></i>Email: <a href="mailto: khaihieunlu@outlook.com">abc@outlook.com</a></p>
                             </li>
                         </ul>
                     </div>

@@ -37,9 +37,7 @@
 					</ul> --%>
 					</div>
 					<div class="right-phone-box">
-						<p>
-							SĐT :- <a href="#"> +11 900 800 100</a>
-						</p>
+						
 					</div>
 					<c:if test="${user.email != null}">
 						<div class="our-link">
@@ -77,17 +75,7 @@
 					</div>
 					<div class="text-slid-box">
 						<div id="offer-box" class="carouselTicker">
-							<ul class="offer-box">
-								<li><i class="fab fa-opencart"></i> Sale1</li>
-								<li><i class="fab fa-opencart"></i> Sale2</li>
-								<li><i class="fab fa-opencart"></i> Sale3</li>
-								<li><i class="fab fa-opencart"></i> Sale4</li>
-								<li><i class="fab fa-opencart"></i> Sale5</li>
-								<li><i class="fab fa-opencart"></i> Sale6</li>
-								<li><i class="fab fa-opencart"></i> Sale7</li>
-								<li><i class="fab fa-opencart"></i> Sale8</li>
-								<li><i class="fab fa-opencart"></i> Sale9</li>
-							</ul>
+							
 						</div>
 					</div>
 				</div>

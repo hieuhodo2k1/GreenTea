@@ -15,14 +15,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
     <!-- Site Metas -->
-    <title>Freshshop</title>
+    <title>GreenTea</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="google-signin-client_id" content="1036870259189-5q0j11me86k3v4ni4eng6v02v2pe7jql.apps.googleusercontent.com">
 	<link rel="stylesheet" href="css/header.css">
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="stylesheet" href="fonts/themify-icons-font/themify-icons/themify-icons.css">
     <!-- Bootstrap CSS -->
@@ -79,20 +78,9 @@
 							<div class="col-12 col-sm-8 text-center text-sm-left">
 								<div class="toolbar-sorter-right">
 									<span>Sắp xếp </span>
-									<!-- 									 <select id="basic"
-										class="selectpicker show-tick form-control"
-										data-placeholder="$ USD" name="sort">
-										<option  data-display="Select">Ngẫu nhiên</option>
-										<option value="1">Phổ biến nhất</option>
-										<option value="2">Giá cao → Giá thấp</option>
-										<option value="3">Giá thấp → Giá cao</option>
-										<option value="4">Mới nhất</option>
-									</select> -->
+									
 					<div class="select-sort-box">
-                    <!--     <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-							<option >D VND</a></option>
-							<option >$ USD</option>
-						</select>  -->
+                  
 						<a href="#" class="select-sort"> ${sortTitle} </a>
 						<i class="fa fa-caret-down" aria-hidden="true"></i>
 						
@@ -105,7 +93,7 @@
 					</ul>
                     </div>
 								</div>
-								<p>Showing all 6 results</p>
+								
 							</div>
 							<div class="col-12 col-sm-4 text-center text-sm-right">
 								<ul class="nav nav-tabs ml-auto">
@@ -191,7 +179,7 @@
 															<div class="type-lb">
 																<p class="new">New</p>
 															</div>
-															<img src="images/image-product/${product.linkImage }"
+															<img src="${product.linkImage }"
 																class="img-fluid" alt="Image">
 															<div class="mask-icon">
 																<ul>
@@ -265,7 +253,7 @@
 						</div>
 						<div class="filter-sidebar-left">
 							<div class="title-left">
-								<h3>Categories</h3>
+								<h3>Danh mục</h3>
 							</div>
 							<div
 								class="list-group list-group-collapse list-group-sm list-group-tree"
@@ -310,28 +298,7 @@
 								</a> -->
 							</div>
 						</div>
-						<div class="filter-price-left">
-							<div class="title-left">
-								<h3>Price</h3>
-							</div>
-							<div class="price-box-slider">
-								<div id="slider-range"></div>
-								<form action="SearchProduct">
-									<div class="demo">
-
-										<p>
-											<input type="text" id="amount" readonly
-												style="border: 0; color: #fbb714; font-weight: bold;"
-												name="price-filter">
-											<button class="btn hvr-hover" type="submit">Filter</button>
-										</p>
-
-
-									</div>
-
-								</form>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>
