@@ -117,7 +117,7 @@
                                 <li><a href="my-account.jsp">My Account</a></li>
                                 <li><a href="wishlist.jsp">Wishlist</a></li>
                             </ul> --></li>
-						<li class="nav-item"><a class="nav-link" href="gallery.jsp">Blog</a></li>
+						
 						<li class="nav-item"><a class="nav-link" href="contact.jsp">Liên
 								lạc</a></li>
 					</ul>
