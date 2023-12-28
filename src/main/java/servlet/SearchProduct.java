@@ -109,14 +109,14 @@ public class SearchProduct extends HttpServlet {
 		}
 		if(sortBy.equals("random")) {
 			listProduct= pagingsClone;
-			sort="Không sắp xếp";
+			sort="Sắp xếp ngẫu nhiên";
 		}if(sortBy.equals("high-to-low")) {
 			Collections.sort(listProduct, new SortPriceDESC());
-			sort="Giá cao → Giá thấp";
+			sort="Giá từ cao tới thấp";
 		
 		}if(sortBy.equals("low-to-high")) {
 			Collections.sort(listProduct, new SortPriceASC());
-			sort="Giá thấp → Giá cao";
+			sort="Gía từ thấp đến cao";
 		}
 		if(sortBy.equals("popularty")) {
 			Collections.sort(listProduct, new SortPopular());

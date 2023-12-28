@@ -77,7 +77,7 @@
 						<div class="product-item-filter row">
 							<div class="col-12 col-sm-8 text-center text-sm-left">
 								<div class="toolbar-sorter-right">
-									<span>Sort by </span> 
+									<span>Sắp xếp</span> 
 									<div class="select-sort-box">
 						<a href="#" class="select-sort"> ${sortTitle} </a>
 						<i class="fa fa-caret-down" aria-hidden="true"></i>
@@ -91,7 +91,7 @@
 					</ul>
                     </div>
 								</div>
-								<p>Showing all 4 results</p>
+						
 							</div>
 							<div class="col-12 col-sm-4 text-center text-sm-right">
 								<ul class="nav nav-tabs ml-auto">
@@ -177,7 +177,7 @@
 															<div class="type-lb">
 																<p class="new">New</p>
 															</div>
-															<img src="images/image-product/${product.linkImage }" class="img-fluid"
+															<img src="${product.linkImage }" class="img-fluid"
 																alt="Image">
 															<div class="mask-icon">
 																<ul>

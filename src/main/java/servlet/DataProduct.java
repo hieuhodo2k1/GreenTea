@@ -1,7 +1,9 @@
 package servlet;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -37,10 +39,14 @@ public class DataProduct extends HttpServlet {
 		ProductDAO productDAO = (ProductDAO)getServletContext().getAttribute("productDAO");
 		List<Product> listProducts = productDAO.getListProduct();
 		List<ProductCategory> lisProductCategories = productDAO.getNameCateogorys();
+		Map<String, String> mapProductCategory = new HashMap<>();
+		for(ProductCategory pd : lisProductCategories) {
+			mapProductCategory.put(pd.getIdProduct(), pd.getNamCategory());
+		}
 
 		ServletContext context = getServletContext();
 		context.setAttribute("products", listProducts);
-		context.setAttribute("productsCate", lisProductCategories);
+		context.setAttribute("productsCate", mapProductCategory);
 		request.getRequestDispatcher("table-product.jsp").forward(request, response);		
 	}
 

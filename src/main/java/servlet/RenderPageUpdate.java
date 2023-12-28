@@ -50,6 +50,7 @@ public class RenderPageUpdate extends HttpServlet {
 		String link1 = linkLists[0];
 		String link2 = linkLists[1];
 		HttpSession session = request.getSession();
+		System.out.println("Cate update: "+nameCategory);
 		session.setAttribute("idProduct", id);
 		session.setAttribute("nameProduct", nameproduct);
 		session.setAttribute("description", description);

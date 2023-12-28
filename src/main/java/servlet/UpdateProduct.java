@@ -102,6 +102,7 @@ public class UpdateProduct extends HttpServlet {
 		String des = request.getParameter("des-product");
 		String price = request.getParameter("price-product");
 		String category = request.getParameter("category-product");
+	
 		String linkI = "";
 		String linkL = "";
 

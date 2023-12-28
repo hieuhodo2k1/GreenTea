@@ -74,7 +74,7 @@
                                     	<tr>
                                             <td>${products.get(i).nameProduct}</td>
                                             <td>${products.get(i).description}</td>
-                                            <td>${productsCate.get(i).namCategory}</td>
+                                            <td>${productsCate.get(products.get(i).idProduct)}</td>
                                             <td>${products.get(i).price}</td>
                                             <td><img
                                                 src="${products.get(i).linkImage}"
@@ -84,7 +84,7 @@
                                                  <c:param name="nameProduct" value="${products.get(i).nameProduct}"></c:param>  
                                                  <c:param name="description" value="${products.get(i).description}"></c:param>      
                                                  <c:param name="price" value="${products.get(i).price}"></c:param>            
-                                                  <c:param name="nameCategory" value="${productsCate.get(i).namCategory}"></c:param>  
+                                                  <c:param name="nameCategory" value="${productsCate.get(products.get(i).idProduct)}"></c:param>  
                                                    <c:param name="linkImage" value="${products.get(i).linkImage}"></c:param> 
                                                    <c:param name="linkList" value="${products.get(i).linkList}"></c:param>                                             
                                                 	</c:url>

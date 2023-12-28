@@ -358,7 +358,7 @@ public class ProductDAO {
 			ps.setString(6, linkL);
 			ps.setString(7, id);
 			ps.executeUpdate();
-			
+			System.out.print("Cateogry : "+ category);
 		}
 		catch (SQLException e) {
 			e.printStackTrace();
